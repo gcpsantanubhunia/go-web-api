@@ -1,8 +1,10 @@
 package main
 
-// Book represents our data model
-type Book struct {
-	ID     int    `json:"id"`
-	Title  string `json:"title"`
-	Author string `json:"author"`
+type Book struct
+{
+	ID     		int    `json:"id"`
+	Name  		string `json:"name"`
+	Price 		float64 `json:"price"`
+	Category  	string `json:"category"`
+	Author 		string `json:"author"`
 }
